@@ -7,14 +7,13 @@
 
 .button {
   padding: 0.5em 1em;
-  border: none;
   border-radius: 4px;
+  padding: 10px;
   color: #fff;
-  cursor: pointer;
   transition: background-color 0.3s;
+  border: none;
 }
 
-/* Кнопка "Good" — зелений колір */
 .goodButton {
   background-color: #4caf50;
 }
@@ -23,17 +22,15 @@
   background-color: #388e3c;
 }
 
-/* Кнопка "Neutral" — жовтий колір */
 .neutralButton {
   background-color: #ffeb3b;
-  color: #333; /* Темний колір тексту для кращої видимості */
+  color: #333;
 }
 
 .neutralButton:hover {
   background-color: #fdd835;
 }
 
-/* Кнопка "Bad" — червоний колір */
 .badButton {
   background-color: #f44336;
 }
@@ -42,7 +39,6 @@
   background-color: #d32f2f;
 }
 
-/* Кнопка "Reset" — сірий колір */
 .resetButton {
   background-color: #9e9e9e;
 }
