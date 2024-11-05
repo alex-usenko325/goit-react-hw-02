@@ -1,12 +1,10 @@
 .optionsContainer {
   display: flex;
-  gap: 1em;
+  gap: 20px;
   justify-content: center;
-  margin: 1em 0;
 }
 
 .button {
-  padding: 0.5em 1em;
   border-radius: 4px;
   padding: 10px;
   color: #fff;
